@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: green;
+}
+main{
+    background-color: yellow;
+}
+section{
+    background-color: blue;
+    width: 708px;
+    height: 55px;
+    padding: 164px;
+    margin: 168px;
+    color: white;
+    text-align: center;
+    font: normal 15pt Arial;
+    border-radius: 50%;
+}
+

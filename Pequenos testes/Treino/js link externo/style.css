@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    background-color: rgb(48, 164, 164);
+    max-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    overflow: auto;
+    resize: both;
+    margin: 1px;
+    padding: -34px;
+    flex-wrap: wrap;
+    align-content: center;
+}

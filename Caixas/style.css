@@ -1,0 +1,62 @@
+.primeiro_paragrafo{
+    background-image: linear-gradient(to left, #F6DA67, #D4AF59, #EBBA6E, #D49259, #F69467);
+    text-align: center;
+    padding: 45px 200px 45px 120px;
+    margin: auto;
+    border-radius: 15px;
+    outline: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.nazare{
+    border-radius: 25px;
+    padding: 0px 120px 0px 120px ;
+    margin: 45px 200px 45px 200px;
+    
+    }
+    .titanic{
+        padding: 0px 120px 0px 200px ;
+    margin: 45px 200px 45px 200px;
+    border-radius: 15px;
+    }
+    table{
+        table-layout: auto;
+    }
+td{
+    border: solid;
+    border-radius: 12px;
+    color: white;
+    
+}
+.navegacao{
+    background-image: linear-gradient(to left, #F6DA67, #D4AF59, #EBBA6E, #D49259, #F69467);
+    text-align: center;
+    padding: 45px 200px 45px 120px;
+    margin: auto;
+    border-radius: 15px;
+    outline: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+body{
+    background-image: url("madri.jpg");
+      }
+
+main{
+    background-color: bisque;
+    margin: 45px 200px 45px 200px;
+    border-radius: 15px ;
+    outline: auto;
+    padding: 45px 45px 45px 45px ;
+}
+.bruno{
+    padding: 45px 45px 45px 45px ;
+}
+footer{
+    padding: 0px 120px 0px 200px ;
+    margin: 45px 200px 45px 200px;
+    border-radius: 15px;
+}

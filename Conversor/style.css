@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+body{
+    background: url(space.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+section.texto{
+    font-family: 'Crimson Text', serif ;
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+}

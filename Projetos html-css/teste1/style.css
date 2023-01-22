@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1.titulo{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    height: 61px;
+    width: auto;
+    margin: 31px;
+    padding: 29px;
+    text-align: center;
+}
+nav > a:hover{
+    background-color: rgb(122, 113, 199);
+    border-radius: 4px;
+}

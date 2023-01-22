@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="shortcut icon" href="favcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="texto">
+    <h1>Conversor de Ano luz em KM</h1>
+    <p>Coloque quantos anos luz aqui:</p>
+    <input type="number" name="txt1" id="txt1">
+    <input type="button" value="Calcule" onclick="converter()">
+    <br>
+    <br>   
+    <div id="res">Resultado</div>
+    </section>
+    
+    <script>
+        var km = window.document.getElementById('txt1')
+        var luz = '9460800000000'
+        var res= window.document.getElementById("res")
+
+        function converter(){
+        var km = Number(txt1.value)
+        var r = km*luz
+        res.innerHTML=`<strong>${km} ano(s) luz tem ${r} km</strong>`
+
+        }
+
+
+    </script>
+</body>
+</html>

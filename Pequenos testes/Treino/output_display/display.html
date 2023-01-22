@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Possibilidade de display com JavaScript</title>
+    <link rel="stylesheet" href="display.css">
+    <script src="js_display.js"></script>
+</head>
+<header>
+    <h1>Display</h1>
+</header>
+<body>
+    
+<main>
+    <section>
+        <h1>Possibilidades</h1>
+    </section>
+    
+    <div id="div1">
+    <p> &#128526 Difirentes tipos de display</p>
+    <ul>
+        <li>Writing into an HTML element, using innerHTML.</li>
+        <li>Writing into the HTML output using document.write()</li>
+        <li>Writing into an alert box, using window.alert().</li>
+        <li>Writing into the browser console, using console.log().</li>
+        <li>Botão de impressão "button onclick="window.print()">Imprimir button"</li>
+    </ul>
+    </div>
+    <article>
+        <h2>Abaixo vai aparecer uma soma apartir de innerHTML</h2>
+        <p id="soma1">Soma aqui</p>
+        <h2>Pode tambem usar o write()</h2>
+        <p id="soma2">Exemplo</p>
+        <p>Clique
+        <button type="button" id="mult" onclick="window.document.write(2+8)">Aqui</button>
+        </p>
+        </article>
+
+        <div id="div1">
+            <h2>Botão de impressão</h2>
+            <p>Colocar botão de impressão com o window.print</p>
+            <button onclick="window.print()">Imprimir</button>
+        </div>
+</main>
+
+</body>
+<script>
+    window.document.getElementById("soma1").innerHTML = 2+6
+    window.document.write(2+8)
+    //window.alert(2+6)
+ 
+   
+</script>
+</html>

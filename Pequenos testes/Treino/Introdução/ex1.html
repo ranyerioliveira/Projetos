@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <style>
+        h1#titulo{
+            background-color: rgb(185, 189, 213);
+            text-align: center;
+            margin: 50px;
+            padding: 10px;
+        }
+        div#d1{
+            background-color: rgb(191, 213, 185);
+            text-align: center;
+            margin: 50px;
+            padding: 10px;
+        }
+        div#d2{
+            background-color: rgba(135, 57, 57, 0.481);
+            text-align: center;
+            margin: 50px;
+            padding: 10px;  
+        }
+    </style>
+</head>
+<body>
+<h1 id="titulo">Vamos estudar JavaScript na pratica</h1>
+    <div id="d1">
+        <h1>O que você pode fazer com JavaScript</h1>
+        <p id="demo">JavaScript pode mudar o conteudo do HTML acionando um botão especifico</p>
+        <button type="button" onclick='window.document.getElementById("demo").innerHTML = "Hello JavaScript"'>Clique aqui</button>
+        <h2>Da pra fazer mais coisa com JS mudando o CSS tambem</h2>
+        <p id="demo2">Mudando o CSS</p>
+        <button type="button" onclick='window.document.getElementById("demo2").style.fontSize = "35px"'>Mude a fonte</button>
+        <button type="button" onclick='window.document.getElementById("demo2").style.color = "red"'>Mude a cor</button>
+        <h2>Da pra anular o display"texto html"</h2>
+        <p id="demo3">Display none</p>
+        <button type="button" onclick='window.document.getElementById("demo3").style.display="none"'>Esconder</button>
+        <hr>
+        <h2>Mostrar um objeto com um botão</h2>
+        <p id="demo4" style="display: none;"><img src="achou.jpg" width="200px"><br>Achou! <br>Abestado!</p>
+        <button type="button" onclick="window.document.getElementById('demo4').style.display='block'">Clique aqui</button>
+        
+        
+        <p>*Isso é com JavaScript inline</p>
+    </div>
+    <hr>
+
+    <div id="d1">
+        <h1>Atributos </h1>
+        <p>JS pode mudar o valor do atributo relacionado no HTML</p>
+        <p>Veja essa caso de acender e apagar essa lampada</p>
+
+        <button onclick = "window.document.getElementById('on').src='pikachu.png'">Pikachu</button>
+        <img id="on" src="raichu.jpg" style="width: 100px;">
+        <button onclick = "window.document.getElementById('on').src='raichu.jpg'">Raichu</button>
+        <br><br>
+            <button onclick = "window.document.getElementById('on2').src='onlamp.jfif'">ON</button>
+            <img id="on2" src="lampoff.gif" style="width: 100px;">
+            <button onclick = "window.document.getElementById('on2').src='lampoff.gif'">OFF</button>
+        </article>
+    </div>
+    <hr>
+    <h1 id="titulo">Usando o JavaScript com a TAG script</h1>
+    <div id="d2">
+        <h2>JavaScript TAG interna</h2>
+        <p id="tagex"></p>
+        <p id="interno"></p>
+    </div>
+    <script>
+        window.document.getElementById('tagex').innerHTML= 'Isso é meu primeiro texto no JS'
+        window.document.getElementById('interno').innerHTML = 'Script interno'
+    </script>
+    <div id="d1">
+        <p><a href="pagina_bodyehead.html">Clique aqui</a> para acessar as paginas script no body e no head</p>
+    </div>
+
+</body>
+</html>

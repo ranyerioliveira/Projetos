@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(207, 14, 207, 0.206);
+}
+main{
+    background-color: azure;
+}
+div#div1{
+    background-color: rgba(140, 188, 124, 0.611);
+    max-width: 600px;;
+    min-height: 100px;
+    margin: 30px;
+    padding: auto;
+}

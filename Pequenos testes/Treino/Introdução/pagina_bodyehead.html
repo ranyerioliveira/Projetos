@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag em body e head</title>
+</head>
+<script>
+    function funcao() {
+        window.document.getElementById('p1').innerHTML = 'Essa função foi dada com JavaScript interno no head'
+        
+    }
+   
+</script>
+<style>
+    div{
+        background-color: rgba(172, 55, 154, 0.468);
+            text-align: center;
+            margin: 50px;
+            padding: 10px;
+    }
+    div#d1{
+        background-color: rgba(199, 126, 62, 0.468);
+            text-align: center;
+            margin: 50px;
+            padding: 10px;
+    }
+</style>
+<body>
+    
+    <div>
+        <h1>Tag no head</h1>
+        <p>Codigo <br><img src="tagheadinterna.PNG" width="500px"></p>
+        <p id="p1">Exemplo</p>
+        <button type="button" onclick="funcao()">Clique</button>
+    </div>
+        <article>
+            <h3 style="text-align: center ; background-color: rgba(232, 74, 74, 0.586); margin: 50px; padding: 10px;">A Tag 'function' serve para dar a função () no botão nesse exemplo</h3>
+        </article>
+    <div id="d1">
+        <h1>Tag no body</h1>
+        <p>Codigo <br><img src="tagbodyinterna.PNG" width="500px"></p>
+        <p id="p2">Exemplo</p>
+        <button type="button" onclick="funcao2()">Clique</button>
+
+    </div>
+    <script>
+       function funcao2() {
+        window.document.getElementById('p2').innerHTML = 'Essa função foi dada com JavaScript interno no body'
+        
+    }
+    </script>
+</body>
+</html>
