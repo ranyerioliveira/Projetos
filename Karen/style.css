@@ -1,8 +1,12 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+
 h1.titulo{
-    text-align: center;
+    text-align: left;
+}
+div.menuVertival{
+    background-color: white;
 }
 main{
     background-color: rgb(255, 255, 255);
