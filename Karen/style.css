@@ -1,19 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1.titulo{
     text-align: left;
+    height: 46px;
+    padding: 42px;
+    margin: 33px;
 }
+
 div.menuVertival{
     background-color: white;
 }
+img#logo{
+    max-width: 500px;
+    max-height: 400px;
+}
+img#cafe{
+    max-width: 531px;
+    max-height: 420px;
+    padding: 16px;
+    margin: 6px;
+}
+img#karen{
+    max-width: 600px;
+    max-height: 450px;
+    padding: 16px;
+    margin: 6px
+}
 main{
     background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    min-height: 785px;
+    margin: 6px;
+    padding: 42px;
+    border: solid rgba(207, 203, 203, 0.452);
 }
 div{
     background-color: rgb(240, 240, 240);
+    border-radius: 8px;
 }
 div.rodape{
     background-color: beige;
+   
+}
+p{
+    margin: 15px;
+    
+}
+h2, h3{
+    padding: 15px;
+    margin: 15px;
 }
