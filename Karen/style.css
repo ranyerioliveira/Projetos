@@ -1,9 +1,15 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+}
+h1.titulo{
+    text-align: center;
 }
 main{
-    background-color: rgb(103, 126, 126);
+    background-color: rgb(255, 255, 255);
 }
 div{
-    background-color: rgb(196, 255, 196);
+    background-color: rgb(240, 240, 240);
+}
+div.rodape{
+    background-color: beige;
 }
