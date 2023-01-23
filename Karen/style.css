@@ -13,8 +13,16 @@ h1.titulo{
     margin: 33px;
 }
 
-div.menuVertival{
-    background-color: white;
+div#menuVertical{
+    background-color: rgb(255, 255, 255);
+   
+}
+a:hover{
+    background-color: rgb(240, 240, 240);
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 28, 25);
 }
 img#logo{
     max-width: 500px;
@@ -40,19 +48,24 @@ main{
     padding: 42px;
     border: solid rgba(207, 203, 203, 0.452);
 }
+
 div{
     background-color: rgb(240, 240, 240);
     border-radius: 8px;
 }
-div.rodape{
-    background-color: beige;
-   
-}
+
 p{
-    margin: 15px;
+    margin: 16px;
     
 }
 h2, h3{
     padding: 15px;
     margin: 15px;
+}
+div.rodape{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+   
 }
