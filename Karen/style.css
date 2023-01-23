@@ -33,6 +33,7 @@ img#cafe{
     max-height: 420px;
     padding: 16px;
     margin: 6px;
+    display: inline-block;
 }
 img#karen{
     max-width: 600px;
