@@ -39,7 +39,8 @@ img#karen{
     max-width: 600px;
     max-height: 450px;
     padding: 16px;
-    margin: 6px
+    margin: 6px;
+    margin-right: 45px;
 }
 main{
     background-color: rgb(255, 255, 255);
