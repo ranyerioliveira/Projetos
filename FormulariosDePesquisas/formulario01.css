@@ -25,3 +25,27 @@ main{
     border-radius: 7px;
     
 }
+#pessoais{
+    background-color: rgba(175, 175, 153, 0.089);
+    padding: 15px;
+    width: 179px;
+}
+footer{
+    text-align: center;
+}
+footer > a{
+    text-decoration: none;
+    
+}
+div#enviar{
+    margin: 10px; 
+    
+    display: inline;
+}
+button#botao{
+    margin-left: 180px;
+    
+}
+#opiniao{
+    margin: auto;
+}
