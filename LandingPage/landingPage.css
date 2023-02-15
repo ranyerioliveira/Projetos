@@ -24,5 +24,60 @@
     justify-content: space-around;
     align-items: center;
     color: var(--texto-cor);
-
+}
+#disclaimer h2, .data-projeto{
+    color: var(--primario);
+}
+#disclaimer h2{
+     font-size: 3em;
+     margin-bottom: 1em;
+}
+#disclaimer .sobre-projeto{
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+#form-inscrever{
+    background-color: var(--secundaria);
+    padding: 2em;
+    max-width: 22%;
+}
+#form-inscrever p{
+    font-size: 1.5em;
+    color: var(--texto-secudario);
+    margin-bottom: 1em;
+}
+.grupo-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.1em;
+}
+.grupo-form label{
+    color: var(--texto-terciaria);
+    margin-bottom: .1em;
+    font-weight: bold;
+}
+.grupo-form input, .grupo-form select{
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: none;
+}
+.botao{
+    background-color: var(--primario);
+    color: var(--texto-cor);
+    text-transform: uppercase;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    opacity: .8;
+    border: none;
+}
+.botao:hover{
+    opacity: 1;
 }
