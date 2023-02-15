@@ -14,6 +14,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding-bottom: 500px;
+}
 /*formularios de eventos*/
 #descricao-evento{
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("img/hrz-5.jpg");
@@ -81,3 +84,59 @@
 .botao:hover{
     opacity: 1;
 }
+/* section beneficios */
+
+#beneficios-projeto h2{
+    background-color: var(--secundaria);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+.beneficio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--texto-terciaria);
+}
+.beneficio .bene1-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#benef1{
+    background-image: url(img/sqr-1.jpg);
+}
+#benef2{
+    background-image: url(img/sqr-2.jpg);
+    
+}
+#benef3{
+    background-image: url(img/sqr-3.jpg);
+    
+}
+/* Informações de localização*/
+
+#localização{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
