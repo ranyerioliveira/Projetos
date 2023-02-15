@@ -45,26 +45,26 @@
 }
 #form-inscrever{
     background-color: var(--secundaria);
-    padding: 2em;
+    padding: .6em;
     max-width: 22%;
 }
 #form-inscrever p{
     font-size: 1.5em;
     color: var(--texto-secudario);
-    margin-bottom: 1em;
+    margin-bottom: .1em;
 }
 .grupo-form{
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
 }
 .grupo-form label{
     color: var(--texto-terciaria);
-    margin-bottom: .1em;
+    margin-bottom: .5em;
     font-weight: bold;
 }
 .grupo-form input, .grupo-form select{
-    padding: 2px 4px;
+    padding: 4px 8px;
     border-radius: 5px;
     border: none;
 }
