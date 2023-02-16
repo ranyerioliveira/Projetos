@@ -136,7 +136,72 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: var(--texto-cor);
+    margin-bottom: 3em;
+}
+#endereço, #detalhe-endereço{
+    max-width: 40%;
+    }
+#endereço{
+    display: flex;
+}
+ #endereço i{
+    color: var(--primario);
+    font-size: 4em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+#detalhe-endereço{
+    text-align: center;
+    font-size: 1.3em;
+    width: 355px;
+    height: 277px
+    
+}
+#localizaçao h3{
+    color: var(--primario);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#localização p {
+    line-height: 1.5em;
+    justify-content: space-between;
+}
+/*Detalhes*/
+#detalhes{
+    width: 80%;
+    margin: 0 auto;
+}
+.detalhe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+.detalhe img{
+    width: 50%;
+}
+.detalhe h3{
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+#detalhe1 h3{
+    font-size: 3em;
+    font-weight: 700;
+}
+.detalhe-descrição{
+    width: 100%;
+    padding-left: 2em;
 
 }
-
-
+.detalhe-descrição ul{
+    list-style-position: inside;
+}
+.detalhe-descrição ul li{
+    margin-bottom: 0.4em;
+}
+.detalhe-descrição ul li:last-child{
+    font-weight: bold;
+}
