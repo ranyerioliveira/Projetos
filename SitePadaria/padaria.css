@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+   
+:root{
+    --primario: #EB1CCC;
+    --secundaria: #95989A;
+    --texto-cor: white;
+    --texto-secudario: black;
+    --texto-terciaria:#5D5D5D;
+}body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*formularios de eventos*/
+#descricao-evento{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.671)), url("img/capa.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--texto-cor);
+}
+#disclaimer h2, .data-projeto{
+    color: var(--primario);
+}
+#disclaimer h2{
+     font-size: 3em;
+     margin-bottom: 1em;
+}
+#disclaimer .sobre-projeto{
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+#form-inscrever{
+    background-color: var(--secundaria);
+    padding: .6em;
+    max-width: 22%;
+}
+#form-inscrever p{
+    font-size: 1.5em;
+    color: var(--texto-secudario);
+    margin-bottom: .1em;
+}
+.grupo-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.2em;
+}
+.grupo-form label{
+    color: var(--texto-terciaria);
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+.grupo-form input, .grupo-form select{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+}
+.botao{
+    background-color: var(--primario);
+    color: var(--texto-cor);
+    text-transform: uppercase;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    opacity: .8;
+    border: none;
+}
+.botao:hover{
+    opacity: 1;
+}
+/* section beneficios */
+
+#beneficios-projeto h2{
+    background-color: var(--secundaria);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+.beneficio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--texto-terciaria);
+}
+.beneficio .bene1-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#benef1{
+    background-image: url(img/sqr-1.jpg);
+}
+#benef2{
+    background-image: url(img/sqr-2.jpg);
+    
+}
+#benef3{
+    background-image: url(img/sqr-3.jpg);
+    
+}
+/* Informações de localização*/
+
+#localização{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--texto-cor);
+    margin-bottom: 3em;
+}
+#endereço, #detalhe-endereço{
+    max-width: 40%;
+    }
+#endereço{
+    display: flex;
+}
+ #endereço i{
+    color: var(--primario);
+    font-size: 4em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+#detalhe-endereço{
+    text-align: center;
+    font-size: 1.3em;
+    width: 355px;
+    height: 277px
+    
+}
+#localizaçao h3{
+    color: var(--primario);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#localização p {
+    line-height: 1.5em;
+    justify-content: space-between;
+}
+/*Detalhes*/
+#detalhes{
+    width: 80%;
+    margin: 0 auto;
+}
+.detalhe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+.detalhe img{
+    width: 50%;
+}
+.detalhe h3{
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+#detalhe1 h3{
+    font-size: 3em;
+    font-weight: 700;
+}
+.detalhe-descrição{
+    width: 100%;
+    padding-left: 2em;
+
+}
+.detalhe-descrição ul{
+    list-style-position: inside;
+}
+.detalhe-descrição ul li{
+    margin-bottom: 0.4em;
+}
+.detalhe-descrição ul li:last-child{
+    font-weight: bold;
+}
+
+/*Seção de entrar em contato*/
+#cta{
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--texto-cor);
+    }
+ #cta h3{
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+ }
+ #cta .botao{
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+ }
+
+ /*Rodape*/
+
+ #rodape{
+    text-align: center;
+    color: var(--texto-terciaria);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ #rodape h3{
+    font-size: 1.8em;
+    margin-bottom: .5em;
+ }
+ #rodape p:nth-child(2){
+    margin-bottom: .1em;
+    font-size: 1.2em;
+ }
+ #rodape span{
+    font-weight: bold;
+ }
+
+ /*Responsividade mobile*/
+
+ @media (max-width: 450px){
+    /*formularios de eventos*/
+    #descricao-evento{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .botão{
+        opacity: 1;
+    }
+    #disclaimer{
+        padding: 2em;
+    }
+    #disclaimer h2{
+        margin-bottom: .5em;
+    }
+    #form-inscrever{
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+    /*Seção de beneficios*/
+    .beneficios{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+
+    }
+    .beneficio{
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+    /*localização*/
+    #localização{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+    #endereço{
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    #endereço i{
+        margin: .3em 0;
+    }
+    #detalhe-endereço{
+        order: 1;
+        max-width: 100%;
+    }
+    #detalhe-endereço h3{
+        margin-bottom: 0;
+
+    }
+    /*Detalhes*/
+    .detalhe{
+        flex-direction: column;
+        margin-bottom: 0.5em;
+        gap: 0;
+
+    }
+    .detalhe img{
+        width: 100%;
+        margin: 2em 0;
+    }
+    #detalhe1 img{
+        display: none;
+
+    }
+    .detalhe-descrição{
+        padding: 0;
+    }
+    #detalhe3 img{
+        order: 2;
+    }
+    #detalhe3 .detalhe-descrição{
+        order: 1;
+    }
+    /*Mais informações*/
+    #cta{
+        text-align: center;
+    }
+
+    #cta .botao{
+        width: 80%;
+    }
+ }
+
+
+
