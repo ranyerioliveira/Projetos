@@ -176,20 +176,21 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 5%;
-    margin-bottom: 4em;
+    gap: 6%;
+    margin-bottom: 2em;
 }
 .detalhe img{
     width: 50%;
 }
 .detalhe h3{
     margin-bottom: 1em;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
 }
 #detalhe1 h3{
-    font-size: 3em;
-    font-weight: 700;
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 2em;
 }
 .detalhe-descrição{
     width: 100%;
