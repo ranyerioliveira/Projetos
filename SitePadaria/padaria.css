@@ -146,8 +146,9 @@
  #endereço i{
     color: var(--primario);
     font-size: 4em;
-    margin-right: .5em;
-    margin-top: 3em;
+    margin-right: -3.5em;
+    margin-top: 1.6em;
+    margin-left: 0.9em;
 }
 #detalhe-endereço{
     text-align: center;
