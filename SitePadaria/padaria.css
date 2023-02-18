@@ -3,8 +3,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
    
 :root{
-    --primario: #EB1CCC;
-    --secundaria: #95989A;
+    --primario: #5F899E;
+    --secundaria: #ebd6bca8;
     --texto-cor: white;
     --texto-secudario: black;
     --texto-terciaria:#5D5D5D;
@@ -26,8 +26,9 @@
     align-items: center;
     color: var(--texto-cor);
 }
-#disclaimer h2, .data-projeto{
-    color: var(--primario);
+#disclaimer h1{
+    color: #8bd7fd;
+    font-size: 5em;
 }
 #disclaimer h2{
      font-size: 3em;
