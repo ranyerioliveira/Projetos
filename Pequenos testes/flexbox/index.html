@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <h1>Trabalhando com elementos pai</h1>
+    <div id="pai">
+        <div id="pt1"><p>Como que eu vou escrever agora</p></div>
+        <div id="pt2"></div>
+        <div id="pt3"></div>
+    </div>
+
+    <p>O display: flex tira o padrão que a caixa vira, por exemplo a div vem como padrão colunm de com o esse recurso ele vira row.</p>
+    <p>O space-around centraliza e espaça os elementos filhoes dentro da pai, o alinhamento horizontal</p>
+    <p>O justify-content serve para sentralizar os elementos filhoes que estão dentro do elemento pai.</p>
+    <p>O align-items centraliza o posicionamento dos elementos em si no alinamento vertical </p>
+    <p>flex whap serve para quando a quantidade de elementos utrapassar a pagina e o resto ira para a outra linha</p>
+
+    <h1>Trabalhando com elementos filhos (itens)</h1>
+
+    <div id="pai2">
+        <div class="item" id="box1">1</div>
+        <div class="item" id="box2">2</div>
+        <div class="item" id="box3">3</div>
+    </div>
+    <p> flax-basic serve para delimitar a quantidade de pixel (tamanho) maximo do elemento</p>
+    <p>flex-grow o temanho do crescimento do elemento (div)</p>
+    <p> o shorthand dessa função segue as seguintes order: grow, shrink e o basic</p>
+    <p>A propriedade order pode colocar a ordem diferente </p>
+</body>
+</html>
