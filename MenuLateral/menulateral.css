@@ -16,11 +16,11 @@ body{
 
 }
 .navigation{
-    position: absolute;
+    position: relative;
     height: 500px;
     background-color: #424242;
     width: 70px;
-    box-shadow: 10px 0 0  #099c22;
+    box-shadow: 10px 0 0 #099c22;
     border-left: 10px solid #424242 ;
     overflow-x: hidden;
     transition: 0.5s;
@@ -76,7 +76,7 @@ body{
     line-height: 60px;
     white-space: nowrap;
 }
-.navigation ul li .active{
+.navigation ul li.active{
     background: #099c22 ;
 }
 .navigation ul li .active a::before{
