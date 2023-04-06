@@ -28,6 +28,7 @@ body{
 }
 .navigation:hover{
     width: 300px;
+    
 
 }
 .navigation ul{
@@ -44,6 +45,7 @@ body{
     width: 100px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 .navigation ul li a{
     position: relative;
@@ -51,6 +53,7 @@ body{
     width: 100%;
     text-decoration: none;
     color: #fff;
+    
 }
 .navigation ul li a .icon{
     position: relative;
